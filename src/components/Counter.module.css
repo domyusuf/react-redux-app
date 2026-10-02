@@ -5,16 +5,15 @@
   gap: 16px;
   padding: 32px;
   background: #fff;
-  border: 1px solid #dedbe9;
   border-radius: 20px;
-  box-shadow: 0 12px 40px #3124550a;
+  box-shadow: 0 12px 40px #0000000a;
 }
-.counterContainer h2 { margin: 0; font-size: 18px; color: #5f5675; }
+.counterContainer h2 { margin: 0; font-size: 18px; color: #000; }
 .value { font-size: 80px; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.3; }
 .controls { display: flex; gap: 16px; }
 .controls button { width: 80px; font-size: 28px; }
-.counterContainer button { border: 0; border-radius: 10px; padding: 10px 20px; background: #6547b8; color: #fff; cursor: pointer; }
-.counterContainer button:hover { background: #503698; }
-.counterContainer button:focus-visible { outline: 3px solid #b49bed; outline-offset: 4px; }
-.counterContainer .reset { background: #eeebf6; color: #4d397a; min-width: 176px; font-size: 16px; }
-.counterContainer .reset:hover { background: #e0d9ef; }
+.counterContainer button { border: 0; border-radius: 10px; padding: 10px 20px; background: #000; color: #fff; cursor: pointer; }
+.counterContainer button:hover { background: #262626; }
+.counterContainer button:focus-visible { outline: 3px solid #000; outline-offset: 4px; }
+.counterContainer .reset { background: #ededed; color: #000; min-width: 176px; font-size: 16px; }
+.counterContainer .reset:hover { background: #dedede; }
