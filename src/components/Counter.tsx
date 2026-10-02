@@ -18,7 +18,6 @@ export default function Counter() {
         <button aria-label="Increment" onClick={() => dispatch(increment())}>+</button>
       </div>
       <button className={styles.reset} onClick={() => dispatch(reset())}>Reset</button>
-      <p>One shared state. Every action updates the count.</p>
     </section>
   );
 }

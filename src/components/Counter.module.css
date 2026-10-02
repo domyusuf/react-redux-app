@@ -18,4 +18,3 @@
 .counterContainer button:focus-visible { outline: 3px solid #b49bed; outline-offset: 4px; }
 .counterContainer .reset { background: #eeebf6; color: #4d397a; min-width: 176px; font-size: 16px; }
 .counterContainer .reset:hover { background: #e0d9ef; }
-.counterContainer p { color: #686275; margin: 8px 0 0; font-size: 14px; }
